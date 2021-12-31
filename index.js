@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 // import routes
 const authRoute = require('./routes/auth');
 
+// Access environment object
 dotenv.config();
 
 // Connect to DB
